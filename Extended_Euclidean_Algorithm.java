@@ -1,6 +1,6 @@
 //Take two numbers as input and find the geatest common divisor with the help of extended euclidean method
 import java.util.*;
-class Extended_Euclidean_Algorithm{
+class ExtendedEuclidean{
     public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter the 2 integers to find GCD:");
