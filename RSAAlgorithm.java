@@ -54,7 +54,7 @@ public class RSAAlgorithm
         System.out.println("Enter the plain text:");
         String message =s.nextLine(); 
         BigInteger[] encryptedMessage = rsa.encrypt(message); 
-        System.out.println("Encrypted Message: " + encryptedMessage); 
+        System.out.println("Encrypted Message: " + Arrays.toString(encryptedMessage)); 
         String decryptedMessage = rsa.decrypt(encryptedMessage); 
         System.out.println("Decrypted Message: " + decryptedMessage); 
         s.close();

@@ -8,7 +8,6 @@ public class VernamCipher {
         }
         return ciphertext.toString();
     }
-
     public static String decrypt(String ciphertext, String key) {
         StringBuilder plaintext = new StringBuilder();
         for (int i = 0; i < ciphertext.length(); i++) {
@@ -17,7 +16,6 @@ public class VernamCipher {
         }
         return plaintext.toString();
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter plaintext: ");
